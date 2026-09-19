@@ -8,7 +8,7 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_executable(StykLexicon_main
 	src/main.cpp
-	src/headertest.cpp
+	# src/headertest.cpp
 
 	# src/lex/lexer.cpp
 )

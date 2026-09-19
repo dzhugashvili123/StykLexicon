@@ -1,0 +1,27 @@
+{
+    "configurations": [
+    {
+        "name": "(gdb) Debug StykLexicon",
+        "type": "cppdbg",
+        "request": "launch",
+        "program": "${workspaceFolder}/build/StykLexicon_main",
+        "args": [
+            "${workspaceFolder}/build/testfile.stlex",
+            "${workspaceFolder}/build/testout"
+        ],
+        "stopAtEntry": false,
+        "cwd": "${workspaceFolder}",
+        "environment": [],
+        "externalConsole": false,
+        "MIMode": "gdb",
+        "miDebuggerPath": "/usr/bin/gdb",
+        "setupCommands": [
+            {
+                "description": "Enable pretty-printing for gdb",
+                "text": "-enable-pretty-printing",
+                "ignoreFailures": true
+            }
+        ]
+    }
+    ]
+}

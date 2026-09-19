@@ -1,0 +1,5 @@
+from build folder, you can >>cmake ..
+
+for debud, >>cmake -DCMAKE_BUILD_TYPE=Debug ..
+and then >>cmake --build .
+furtheron you can simpy use >>cmake --build . 
